@@ -22,6 +22,6 @@ set(CMAKE_INSTALL_MESSAGE "LAZY")
 
 #
 
-add_subdirectory(manually)
+add_subdirectory(statically)
 add_subdirectory(dynamically)
 
