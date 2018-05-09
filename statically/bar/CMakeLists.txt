@@ -5,7 +5,7 @@ set(EXAMPLE_NAME "bar")
 add_executable(${EXAMPLE_NAME}
   ${EXAMPLE_NAME}.cpp)
 
-set_target_properties(${EXAMPLE_NAME} PROPERTIES LINKER_LANGUAGE C)
+set_target_properties(${EXAMPLE_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 
 if(COMMAND loopc14n)
   loopc14n(DEPENDS ${EXAMPLE_NAME}
