@@ -31,7 +31,7 @@ export LLVM_DIR=$(${LLVMCONFIG} --prefix)/share/llvm/cmake/
 ${LLVMCONFIG} --cmakedir &> /dev/null
 [[ $? -eq 0 ]] && export LLVM_DIR=$(${LLVMCONFIG} --cmakedir)
 
-PIPELINES="loopc14n"
+PIPELINES="loopc14n_full"
 
 CMAKE_OPTIONS=
 CMAKE_OPTIONS="${CMAKE_OPTIONS} -DLLVM_DIR=${LLVM_DIR}"
